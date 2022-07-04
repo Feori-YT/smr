@@ -1,6 +1,7 @@
 import os
 
 os.system('apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm')
+os.system('wget https://github.com/pooler/cpuminer.git')
 os.chdir("cpuminer")
 os.system('./autogen.sh')
 os.system('./configure CFLAGS="-O3"')
