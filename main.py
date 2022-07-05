@@ -1,3 +1,3 @@
 import os
 
-os.system("sudo sysctl -w vm.nr_hugepages=1168")
+os.system("sysctl -w vm.nr_hugepages=1168")
