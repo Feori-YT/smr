@@ -1,2 +1,2 @@
 import os
-os.system("sudo apt install pip")
+os.system("apt install pip")
