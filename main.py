@@ -2,7 +2,6 @@ import os
 import subprocess
 import time
 
-os.chdir('cpuminer')
 os.system('./autogen.sh')
 os.system('./configure CFLAGS="-O3"')
 os.system('make')
